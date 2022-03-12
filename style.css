@@ -1,0 +1,14 @@
+#cont1{
+    background: url(pictures.jpg);
+    height: 830px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+#div1{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: 460px;
+}

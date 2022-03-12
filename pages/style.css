@@ -1,0 +1,64 @@
+#image{
+    background-image: url(thumbnail1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#top{
+    height: 670px;
+}
+
+#heading{
+     text-align: center;
+     background-image: linear-gradient(rgb(113, 113, 238), rgb(214, 84, 214)); 
+     width: 400px; 
+     margin: auto;
+     border-radius: 50px;
+     height: 80px; 
+     padding-top: 15px;
+}
+
+#cont{
+    height: 450px;
+    backdrop-filter: blur(50px); 
+    box-shadow: 0 0 55px black;
+    border-radius: 20px;
+    width: 800px;
+}
+
+
+.in{
+    border-radius: 10px;
+}
+
+.but{
+    border-radius: 50px;   
+    background-image: linear-gradient(rgb(184, 247, 184), rgb(94, 94, 122));   
+}
+
+#mytable{
+    text-align: center;
+}
+
+.option{
+    border-radius: 20px;
+}
+
+
+
+@media (max-width: 700px)
+{
+#cont{
+        width: auto;
+        height: auto;
+}
+#heading{   
+    width: auto;    
+}
+
+#top{
+    height: auto;
+}
+} 
