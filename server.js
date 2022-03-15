@@ -208,6 +208,7 @@ app.post("/listtask", async(req, res)=>{
     task.ttime = body.data.ttime;
     task.task = body.data.task;
     task.status = body.data.status;
+    task.user_id = body.data.user_id;
 
     task.list().then(result => {
         let data = {

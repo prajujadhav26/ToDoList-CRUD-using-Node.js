@@ -84,7 +84,7 @@ class Task {
     } 
 
     list = () => {
-        this.query = "SELECT * FROM tasks";
+        this.query = "SELECT * FROM tasks WHERE user_id="+this.user_id;
 
         console.log(this.query);
         return new Promise((resolve, reject) => {
